@@ -1,6 +1,6 @@
 #include <iostream>
 
-template<auto N>
+template<auto N> // C++17
 void f()
 {
 	std::cout << N << std::endl;
